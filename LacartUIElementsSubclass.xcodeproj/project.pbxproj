@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8241267B1E7BD0A90065CD24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241267A1E7BD0A90065CD24 /* AppDelegate.swift */; };
+		8241267D1E7BD0A90065CD24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241267C1E7BD0A90065CD24 /* ViewController.swift */; };
+		824126801E7BD0A90065CD24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8241267E1E7BD0A90065CD24 /* Main.storyboard */; };
+		824126821E7BD0A90065CD24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824126811E7BD0A90065CD24 /* Assets.xcassets */; };
+		824126851E7BD0A90065CD24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 824126831E7BD0A90065CD24 /* LaunchScreen.storyboard */; };
+		824126901E7BD0EC0065CD24 /* LacartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241268F1E7BD0EC0065CD24 /* LacartButton.swift */; };
+		824126921E7BEB3C0065CD24 /* LacartSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824126911E7BEB3C0065CD24 /* LacartSegment.swift */; };
+		824126941E7BEEDC0065CD24 /* LacartTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824126931E7BEEDC0065CD24 /* LacartTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		824126771E7BD0A90065CD24 /* LacartUIElementsSubclass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LacartUIElementsSubclass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8241267A1E7BD0A90065CD24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8241267C1E7BD0A90065CD24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8241267F1E7BD0A90065CD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		824126811E7BD0A90065CD24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		824126841E7BD0A90065CD24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		824126861E7BD0A90065CD24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8241268F1E7BD0EC0065CD24 /* LacartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LacartButton.swift; sourceTree = "<group>"; };
+		824126911E7BEB3C0065CD24 /* LacartSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LacartSegment.swift; sourceTree = "<group>"; };
+		824126931E7BEEDC0065CD24 /* LacartTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LacartTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		824126741E7BD0A90065CD24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8241266E1E7BD0A90065CD24 = {
+			isa = PBXGroup;
+			children = (
+				824126791E7BD0A90065CD24 /* LacartUIElementsSubclass */,
+				824126781E7BD0A90065CD24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		824126781E7BD0A90065CD24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				824126771E7BD0A90065CD24 /* LacartUIElementsSubclass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		824126791E7BD0A90065CD24 /* LacartUIElementsSubclass */ = {
+			isa = PBXGroup;
+			children = (
+				8241267A1E7BD0A90065CD24 /* AppDelegate.swift */,
+				8241268E1E7BD0C80065CD24 /* CustomUIElements */,
+				8241268C1E7BD0B00065CD24 /* Controller */,
+				8241268D1E7BD0BC0065CD24 /* View */,
+				824126811E7BD0A90065CD24 /* Assets.xcassets */,
+				824126861E7BD0A90065CD24 /* Info.plist */,
+			);
+			path = LacartUIElementsSubclass;
+			sourceTree = "<group>";
+		};
+		8241268C1E7BD0B00065CD24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8241267C1E7BD0A90065CD24 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8241268D1E7BD0BC0065CD24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8241267E1E7BD0A90065CD24 /* Main.storyboard */,
+				824126831E7BD0A90065CD24 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8241268E1E7BD0C80065CD24 /* CustomUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				8241268F1E7BD0EC0065CD24 /* LacartButton.swift */,
+				824126911E7BEB3C0065CD24 /* LacartSegment.swift */,
+				824126931E7BEEDC0065CD24 /* LacartTextField.swift */,
+			);
+			name = CustomUIElements;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		824126761E7BD0A90065CD24 /* LacartUIElementsSubclass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824126891E7BD0A90065CD24 /* Build configuration list for PBXNativeTarget "LacartUIElementsSubclass" */;
+			buildPhases = (
+				824126731E7BD0A90065CD24 /* Sources */,
+				824126741E7BD0A90065CD24 /* Frameworks */,
+				824126751E7BD0A90065CD24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LacartUIElementsSubclass;
+			productName = LacartUIElementsSubclass;
+			productReference = 824126771E7BD0A90065CD24 /* LacartUIElementsSubclass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8241266F1E7BD0A90065CD24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Pushpam Group";
+				TargetAttributes = {
+					824126761E7BD0A90065CD24 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 824126721E7BD0A90065CD24 /* Build configuration list for PBXProject "LacartUIElementsSubclass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8241266E1E7BD0A90065CD24;
+			productRefGroup = 824126781E7BD0A90065CD24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				824126761E7BD0A90065CD24 /* LacartUIElementsSubclass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		824126751E7BD0A90065CD24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824126851E7BD0A90065CD24 /* LaunchScreen.storyboard in Resources */,
+				824126821E7BD0A90065CD24 /* Assets.xcassets in Resources */,
+				824126801E7BD0A90065CD24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		824126731E7BD0A90065CD24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824126921E7BEB3C0065CD24 /* LacartSegment.swift in Sources */,
+				8241267D1E7BD0A90065CD24 /* ViewController.swift in Sources */,
+				8241267B1E7BD0A90065CD24 /* AppDelegate.swift in Sources */,
+				824126901E7BD0EC0065CD24 /* LacartButton.swift in Sources */,
+				824126941E7BEEDC0065CD24 /* LacartTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8241267E1E7BD0A90065CD24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8241267F1E7BD0A90065CD24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		824126831E7BD0A90065CD24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				824126841E7BD0A90065CD24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		824126871E7BD0A90065CD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		824126881E7BD0A90065CD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8241268A1E7BD0A90065CD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LacartUIElementsSubclass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.Test.LacartUIElementsSubclass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8241268B1E7BD0A90065CD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LacartUIElementsSubclass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.Test.LacartUIElementsSubclass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		824126721E7BD0A90065CD24 /* Build configuration list for PBXProject "LacartUIElementsSubclass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824126871E7BD0A90065CD24 /* Debug */,
+				824126881E7BD0A90065CD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824126891E7BD0A90065CD24 /* Build configuration list for PBXNativeTarget "LacartUIElementsSubclass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8241268A1E7BD0A90065CD24 /* Debug */,
+				8241268B1E7BD0A90065CD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8241266F1E7BD0A90065CD24 /* Project object */;
+}
